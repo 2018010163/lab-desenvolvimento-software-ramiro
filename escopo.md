@@ -1,0 +1,78 @@
+Escopo do Projeto de TCC
+1. Identificação do Projeto
+Nome do Projeto: Plataforma Web/APP para Gestão e Rastreabilidade de Bovinos com Blockchain
+Autor: Ramiro Philippsen Velho
+Orientador: Clarissa Castellã Xavier
+Data: A definir
+________________________________________
+2. Introdução e Visão Geral
+O projeto visa o desenvolvimento de uma plataforma de gestão para fazendas de bovinos, tanto leiteiros quanto de corte, com a possibilidade de operar offline e sincronizar os dados quando houver conexão com a internet.
+O diferencial está na aplicação de Blockchain, integrada a tecnologias de RFID e biometria animal (focinho/face), para garantir a unicidade, autenticidade e rastreabilidade de cada animal, desde o nascimento até a comercialização.
+O problema que se pretende resolver é a falta de sistemas acessíveis, confiáveis e escaláveis que unam gestão prática e certificação de origem no setor pecuário.
+________________________________________
+3. Objetivos do Projeto
+•	Desenvolver uma plataforma web e mobile para gestão de rebanhos de corte e leite.
+•	Permitir uso offline com posterior sincronização em nuvem.
+•	Implementar identificação única via RFID e biometria bovina.
+•	Utilizar Blockchain para registrar eventos críticos (nascimento, vacinação, pesagem, venda, transporte).
+•	Gerar relatórios gerenciais de produção, saúde e rastreabilidade.
+•	Propor um modelo seguro, escalável e inovador para o contexto brasileiro.
+________________________________________
+4. Escopo do Projeto
+Entregáveis
+•	Plataforma web/mobile funcional (MVP com módulos principais).
+•	Registro de animais com RFID + biometria.
+•	Integração com blockchain para rastreabilidade.
+•	Módulo de gestão de eventos do rebanho (vacinação, pesagem, venda).
+•	Relatórios básicos de rebanho, produção e histórico individual.
+•	Documentação técnica e manual do usuário.
+Requisitos
+Funcionais:
+•	Cadastro e rastreio de bovinos.
+•	Registro de eventos (nascimento, vacinação, pesagem, venda).
+•	Operação offline com sincronização em nuvem.
+•	Relatórios gerenciais básicos.
+Não Funcionais:
+•	Interface responsiva e intuitiva.
+•	Segurança de dados com criptografia.
+•	Desempenho eficiente mesmo em conexões lentas.
+•	Integração modular para expansão futura.
+Exclusões
+•	Integrações complexas com ERPs já existentes.
+•	Monitoramento ambiental (gases/metano) no MVP.
+•	Suporte técnico contínuo pós-entrega.
+________________________________________
+5. Recursos Necessários
+Pessoas: Autor (desenvolvedor/pesquisador), orientador, eventualmente 1 colaborador para testes.
+Tecnologia: Ambiente de desenvolvimento (IDE), banco de dados PostgreSQL/MongoDB, Hyperledger/Ethereum (private), frameworks web/mobile (React/Flutter), repositório GitHub.
+Infraestrutura: Servidor para hospedagem de testes, leitor RFID UHF, smartphone com câmera.
+________________________________________
+6. Cronograma
+•	Fase 1 (2 meses): Pesquisa e definição de requisitos.
+•	Fase 2 (3 meses): Desenvolvimento do MVP (cadastro, eventos, blockchain).
+•	Fase 3 (2 meses): Testes, prototipação e refinamento.
+•	Fase 4 (1 mês): Documentação, ajustes finais e entrega do TCC.
+________________________________________
+7. Premissas
+•	Acesso a internet em períodos específicos para sincronização.
+•	Disponibilidade de ferramentas de desenvolvimento gratuitas/open source.
+•	Apoio do orientador no acompanhamento do escopo.
+________________________________________
+8. Restrições
+•	Prazo final do TCC.
+•	Recursos financeiros limitados para aquisição de hardware.
+•	Complexidade da integração biométrica limitada ao reconhecimento por imagem (focinho/face).
+________________________________________
+9. Riscos e Planos de Contingência
+•	Risco: Dificuldade técnica na implementação da biometria.
+o	Mitigação: Usar RFID como fallback inicial.
+•	Risco: Atrasos no cronograma.
+o	Mitigação: Priorizar MVP com funcionalidades essenciais.
+•	Risco: Baixa usabilidade em áreas rurais com pouca internet.
+o	Mitigação: Operação offline robusta com sincronização posterior.
+________________________________________
+10. Critérios de Aceitação
+•	O sistema permite cadastrar e rastrear bovinos de forma única (RFID + biometria).
+•	A sincronização offline-online funciona sem perda de dados.
+•	Blockchain registra eventos críticos de forma imutável.
+•	Relatórios básicos estão acessíveis e funcionais.
